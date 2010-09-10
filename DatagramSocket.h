@@ -11,9 +11,12 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-#include <string.h>
 #include <netdb.h>
+#include <string.h>
+#define TRUE 1
+#define FALSE 0
 #endif
+
 
 //Simple socket class for datagrams.  Platform independent between
 //unix and Windows.
