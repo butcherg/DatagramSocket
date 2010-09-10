@@ -12,6 +12,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <string.h>
+#include <netdb.h>
 #endif
 
 //Simple socket class for datagrams.  Platform independent between
